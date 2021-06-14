@@ -1,5 +1,5 @@
 {
-  "name": "Noran's Daily Blog",
+  "name": "Noran Daily Blog",
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs",
