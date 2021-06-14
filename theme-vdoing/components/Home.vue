@@ -9,7 +9,7 @@
       <div
         class="banner-conent"
         :style="
-          !homeData.features && !homeData.heroImage && `padding-top: 7rem`
+          !homeData.features && !homeData.heroImage && `padding-top: 10rem`
         "
       >
         <header class="hero">
@@ -378,6 +378,7 @@ export default {
           font-size: 1.1rem;
           line-height: 1.3;
           opacity: 0.9;
+          font-weight: bold;
         }
 
         .action-button {
@@ -585,6 +586,7 @@ export default {
 
           .description {
             font-size: 1rem;
+            font-weight: bold;
           }
         }
 
@@ -641,6 +643,7 @@ export default {
 
         .description {
           font-size: 1.2rem;
+          font-weight: bold;
         }
 
         .action-button {

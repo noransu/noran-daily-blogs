@@ -15,7 +15,6 @@ module.exports = [
   //     { text: '友情链接', link: '/friends/' },
   //   ],
   // },
-  { text: '关于', link: '/about/' },
   {
     text: '索引',
     link: '/archives/',
@@ -24,4 +23,5 @@ module.exports = [
       { text: '标签', link: '/tags/' },
     ],
   },
+  { text: '关于', link: '/about/' },
 ]

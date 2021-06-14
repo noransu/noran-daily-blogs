@@ -34,8 +34,8 @@
       return {
         isLoaded: true,
         model: {
-          blackCat:
-            "https://cdn.jsdelivr.net/gh/noransu/noran-pkg@1.0.1/live2d/live2d-widget-model-hijiki/assets/hijiki.model.json",
+          // blackCat:
+          //   "https://cdn.jsdelivr.net/gh/noransu/noran-pkg@1.0.1/live2d/live2d-widget-model-hijiki/assets/hijiki.model.json",
           whiteCat:
             "https://cdn.jsdelivr.net/gh/noransu/noran-pkg@1.0.1/live2d/live2d-widget-model-tororo/assets/tororo.model.json"
         },
@@ -76,7 +76,7 @@
         setTimeout(() => {
           window.loadlive2d(
             "vuepress-cat",
-            Math.random() > 0.5 ? this.model.blackCat : this.model.whiteCat
+            this.model.whiteCat
           );
         });
       }
